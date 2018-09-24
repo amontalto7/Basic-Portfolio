@@ -7,11 +7,11 @@ body {
     color: #777777;
 }
 
-.clearfix:: after {
+/* .clearfix:: after {
     content: "";
     display: block;
     clear: both;
-}
+} */
 
 h1,
 h2 {
@@ -19,16 +19,24 @@ h2 {
 }
 
 h1 {
-    background-color:#4aaaa5;
     color:#ffffff;
-    font-size: 2vw;
-    width: 250px; 
+    font-size: 1.5vw;
+}
+
+.myname {
+    background-color:#4aaaa5;
+    width: 25%; 
     display: inline;
     float: left;
+    position: relative;
+    margin-left: 20px;
+    padding: 2px 1px 2px 1px;
 }
 
 .topnav {
     float: right;
+    position: relative;
+    margin-right:10px;
 }
 
 header,
@@ -37,12 +45,15 @@ footer,
     width: 960px;
     margin-left: 10%;
     margin-right: 10%;
+ 
 }
 
 header {
     background-color: #ffffff;
     border: 1px solid #cccccc;
-    
+    /* make container fit the content */
+    display:inline-block;
+    white-space: nowrap;
 }
 
 #main {
@@ -50,6 +61,7 @@ header {
     border: 1px #dddddd solid;
     /* display: block; */
     clear: both;
+    padding: 1%;
 }
 
 footer {

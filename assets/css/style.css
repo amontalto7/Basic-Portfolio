@@ -72,19 +72,20 @@ h1 {
 
 .topnav {
     /* @todo - figure out why this is causing a space between the border */
-    float: right;
     position: absolute;
     right:10px;
-    bottom:20px;
+    bottom:30px;
     font-size: 1vw;
+    
 }
 
 #innerHeader,
 footer,
 #main {
     width: 960px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    
  
 }
 
@@ -92,15 +93,16 @@ header {
     width:100%;
     border-bottom: 1px solid #cccccc;
     border: 100%;
-    /* position: relative; */
-
+    position: relative;
+    display:inline-flex;
+    
 }
 
 #innerHeader{
     background-color: #ffffff;
     /* make container fit the content */
-    display:inline-block;
     white-space: nowrap;
+    display: inline-block;
 
 }
 

@@ -68,7 +68,7 @@ h1 {
     /* @todo - figure out why this is causing a space between the border */
     position: absolute;
     right:10px;
-    bottom:30px;
+    bottom:20px;
     font-size: 1vw;
     
 }

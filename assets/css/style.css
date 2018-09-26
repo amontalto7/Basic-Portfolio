@@ -17,18 +17,12 @@ body {
     filter: hue-rotate(10deg); */
 }
 
-a:link {
-    text-decoration: none;
-}
-
+a:link,
 a:visited {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
+a:hover, 
 a:active {
     text-decoration: underline;
 }
@@ -122,6 +116,10 @@ header {
     margin: 0px 20px 20px 0px;
     height: 100px;
     width: auto;
+}
+
+.imgPortfolio {
+    width: 150px;
 }
 
 .maintxt {

@@ -38,4 +38,10 @@ imgPortfolio {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.label:hover {
+    background-color: #3b8884;
 }

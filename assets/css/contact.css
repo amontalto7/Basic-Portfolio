@@ -1,18 +1,18 @@
 .btn {
     background-color:#4aaaa5 ;
-    border-color: #4aaaa5;
     color:#ffffff;
     font-size: 12px;
     padding: 5px 20px 5px 20px;
     margin-top: 10px;
     border:none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 .btn:hover,
 .btn:active
 .btn:focus {
     background-color: #3b8884;
-    border-color: #3b8884;
 }
 
 #myform {
